@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ededed;
+}
+#box-content{
+    background-color: #dadada;
+    /* margin-left: 20%; */
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+#box-content .contenr-header{
+   background-color: #fffffff5;
+   border-bottom: 1px solid #0000001a;
+   border: 0;
+   font-size: 16px;
+   border-radius: 0;
+   margin-bottom: 12px;
+   /* position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;
+   z-index: 1; */
+}
+
+#box-content .view-oder{
+    height: 66px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.view-oder{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.view-oder>.oder-text{
+    font-weight: 400;
+    margin: 7px 0;
+    padding: 15px;
+    display: flex;
+    font-size: 20px;
+    color: #777;
+    align-items: center;
+    border-right: 1px solid;
+}
+.view-oder .text-about{
+    margin-left: 12px;
+}
+.view-oder .oder-nav{
+    display: inline-flex;
+}
+.view-oder .oder-nav-list{
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    margin-right: 45px;
+    align-items: center;
+}
+.view-oder .oder-nav-list a{
+    text-decoration: none;
+    color: black;
+}
+.view-oder .oder-nav-img{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.oder-nav-text{
+    margin-top: 9px;
+    margin-left: 5px;
+}
+.circle-icon{
+    margin-right: 5px;
+
+}
+#oder-pay{
+    margin: 10px;
+}
+#box-oder{
+    background-color: #fffffff5;
+    width: 49%;
+    border-radius: 10px;
+    min-height: 100vh;
+    padding: 10px;
+    float: left;
+}
+
+.thead-dark th{
+    color: white;
+ }
+ .database {
+     margin-top: 12px;
+     height: 366px;
+ }
+ .database .table-products{
+     width: 100%;
+ }
+ .thead-dark {
+     background-color:rgb(7, 0, 61) ;
+ }
+ .th,td{
+     padding: 10px;
+     text-align: center;
+ }
+ .button-oder{
+     width: 80px;
+     height: 40px;
+ }
+ #box-pay{
+    background-color: #fff;
+    min-height: 100vh;
+    width: 50%;
+    border-radius: 10px;
+    padding: 12px;
+    margin-left: 50%;
+ }
+ .table{
+    margin-top: 12px;
+    width: 100%;
+ }
+.table-cart{
+    color: white;
+    background-color: rgb(7, 0, 61);
+}
+.input-style{
+    width: 40px;
+    height: 30px;
+    text-align: center;
+}
+.delete{
+    cursor: pointer;
+}
+.price-total{
+    background-color: #c4c3c3;
+    text-align: right;
+    font-weight: bold;
+}
+.update-click input{
+    width: 80px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 83.2%;
+}
+.oder-click input{
+    width: 122px;
+    height: 40px;
+    float: right;
+    left: 12px;
+    margin-right: 253px;
+    margin-top: 20px;
+}
+.cart-bill{
+    background-color: #fff;
+    border-radius: 15px;
+    border-right:3px solid;
+    border-bottom:1px solid;
+    padding: 12px;
+}
+.pay-bill{
+    background-color: #fff;
+    border-radius: 15px;
+    border-left:3px solid;
+    border-bottom:1px solid;
+    padding: 10px;   
+}
+.input-group{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 41%;
+}

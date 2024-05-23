@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    min-height: 100%;
+    height: 100vh;
+}
+label{
+    font-weight: bold;
+}
+.bd-example {
+    padding: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid;
+    width: 660px;
+    background-color: #ffffff83;
+    /* height:424px !important; */
+}
+
+.contenr-header {
+    background-color: #fff;
+    border-bottom: 1px solid #0000001a;
+    border: 0;
+    font-size: 16px;
+    border-radius: 0;
+    margin-bottom: 12px;
+    /* position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1; */
+}
+
+.view-oder {
+    height: 66px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.view-oder {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.view-oder>.oder-text {
+    font-weight: 400;
+    margin: 7px 0;
+    padding: 15px;
+    display: flex;
+    font-size: 20px;
+    color: #777;
+    align-items: center;
+    border-right: 1px solid;
+}
+
+.view-oder .text-about {
+    margin: 12px;
+}
+
+.view-oder .oder-nav {
+    display: inline-flex;
+}
+.dulieu{
+    margin-top: 90px;
+}
+.dulieu h2{
+    font-weight: bold;
+    margin-bottom: 12px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid;
+}
+.gr-end{
+    margin-bottom: 24px;
+    border-bottom: 1px solid;
+}
+.with-sty{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.inp-file{
+    padding: 3px;
+    width: 611px;
+}
+.inp-tsp {
+    width: 250px;
+}
+.inp-vc {
+    width: 300px;
+}
+.inp-name{
+    width: 404px;
+
+}

@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(104, 104, 104);
+}
+
+.box-user {
+    background-color: rgb(37, 37, 37);
+    width: 50%;
+    border: 1px solid gray;
+    margin: 0 auto;
+    padding: 0.5em;
+}
+.box-user img {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
+
